@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dhanya Shah">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Dhanya Shah's professional website">
+    <title>Dhanya Shah</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Dhanya Shah</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href ="index.html" class="active">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="Greeting"></h2>
+        <img class="classA" src="../static/photo_of_me.jpg" alt="Dhanya Shah profile image" width="350px">
+        <div class="classA">
+            <span id="shortIntro">I am a sophomore Information Systems Student at Carenegie Mellon University.</span>
+            <span id="readMore"> read more...</span>
+            <span id="longIntro">I am an international Student from India.</span>
+            <span id="readLess"> read less</span>
+            <!-- <p id="Intro">I am a sophomore Information Systems Student at Carenegie Mellon University.</p> -->
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Dhanya &copy;</p>
+    </footer>
+</body>
+</html>

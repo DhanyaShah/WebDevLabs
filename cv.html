@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dhanya Shah">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Dhanya Shah's professional website">
+    <title>Dhanya Shah</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Dhanya Shah</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="cv.html" class="active">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>Curriculum Vitae</h2>
+        <table>
+            <tr><th>Name</th><th>Description</th></tr>
+            <tr><td>Programming Intern at Nazara</td><td>Prototyped and web-hosted a game, Little Readers, on a web-based interface using Django, HTML and CSS</td></tr>
+            <tr><td>Data Analyst at Sarvatra</td><td>Analyzed data on payment transactions and ATMs of over 600 banks over the last 4 years using correlation analysis and predictive models</td></tr>
+            <tr><td>Financial Analyst at ENAM Holdings</td><td>Read annual reports and balance sheets. Used time series regression to analyse data of companies and make recommendations</td></tr>
+            <tr><td>Built Video Games using Python</td><td>Built Brick Breaker with eye-tracking using Python (Tkinter) and OpenCV, Built a functional game of Plants vs Zombies using Python</td></tr>
+            <tr><td>Co-Captained Winning Construction Team, FRC</td><td>Won Rookie-All Star award in the Curie Divison of the Detriot Finals and the Hudson Valley Regional</td></tr>
+        </table>
+        <a href="../static/resume.pdf" target="_blank">My Resume - pdf version</a>
+    </div>
+    <footer>
+        <p id="copyYear">Dhanya &copy;</p>
+    </footer>
+</body>
+</html>
